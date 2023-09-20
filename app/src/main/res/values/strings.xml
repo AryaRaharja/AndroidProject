@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidActivity</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="Amazing">Amazing view can be enjoyed from above of refreshing city</string>
+    <string name="Deskripsi">Detectives McGuire and Cortes take on a gruesome homicide case in Long Beach, California, and navigate the complex role of being the murder police in an area marked by homelessness, drug abuse, and gang violence. With little but their combined decades of detective experience to go off of, they investigate personal and gang-related motives in an attempt to identify and arrest their suspect. When a severed hand is found in the desert nearly 100 miles away, their years-long investigation crosses jurisdictions, and they must connect the dots before the bloodbath continues. Saint Bloodbath explores the true story of multiple heinous crimes, but perhaps more importantly, highlights the lives and experiences of the victims, their peers, and the investigators who sought to bring a murderer to justice.</string>
+    <string name="judulDoa"><![CDATA[Doa & Dzikir Kisabe]]></string>
+    <string name="doa_harian"><![CDATA[Doa & Dzikir Harian]]></string>
+    <string name="doa_latin">Alhamdu lillahil ladzii ahyaanaa ba\'da maa amaa tanaa wa ilahin nusyuuruُ</string>
+    <string name="doa_arab">اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ</string>
+</resources>

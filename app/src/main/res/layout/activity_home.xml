@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/kopi"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/courgette"
+        android:text="Kisabe Coffe"
+        android:textColor="#452411"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="200sp">
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#452411"
+        android:text="Pindah Halaman"
+        android:layout_marginEnd="10sp"
+        app:iconSize="25dp"
+        app:icon="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#767878"
+        android:text="Share"
+        app:icon="@drawable/baseline_share_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>

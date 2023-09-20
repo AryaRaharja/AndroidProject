@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+    <ImageButton
+        android:id="@+id/ibMenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_sort_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:background="@drawable/latihan_rectangle"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="320dp"
+        android:layout_height="370dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="160dp"
+        android:scaleType="centerCrop"/>
+    <!--        android:src="@drawable/BoBoiBoy_Supra"-->
+    <TextView
+        android:id="@+id/ivSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibMenu"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Sale"
+        android:textColor="#F8780A"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/ivDiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivSale"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="10%"
+        android:textColor="#F8780A"
+        android:textSize="70dp" />
+
+    <TextView
+        android:id="@+id/ivLimited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivDiskon"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="*Limited Time"
+        android:textColor="#7C7B7B"
+        android:textSize="20dp" />
+
+    <View
+        android:id="@+id/ivGaris"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_below="@+id/ivLimited"
+        android:background="#7E7D7D"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/ivPopular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:textSize="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ivGaris"
+        android:textStyle="bold"
+        android:textColor="#F8780A"/>
+
+    <TextView
+        android:id="@+id/ivArrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival"
+        android:textSize="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ivGaris"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#F8780A"/>
+
+    <TextView
+        android:id="@+id/ivBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ivGaris"
+        android:textStyle="bold"
+        android:textColor="#F8780A"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:elevation="10dp"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bbb6"/>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:elevation="10dp"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/black"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bbb5"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvJudul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Boboiboy Solar"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvDesk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Kisabe Toys"
+        android:textColor="#606060"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvPrice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="79.000"
+        android:textColor="#F8780A"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvJudul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Boboiboy Air"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvDesk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Kisabe Toys"
+        android:textColor="#606060"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvPrice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivArrival"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="129.000"
+        android:textColor="#F8780A"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>
